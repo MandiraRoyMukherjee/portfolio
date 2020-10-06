@@ -158,8 +158,8 @@
   }
   .myself
   {
-      height:400px;
-      width:300px;
+    max-width: 100%;
+    height: auto;
       float: left;
       
       margin-top:50px;
@@ -175,11 +175,20 @@
     .text {
       font-size: 20px;
     }
+    #aboutme {
+      font-size: 6px;
+    
+    }
   }
   
   @media screen and (max-width: 600px) {
     .text{
       font-size: 30px;
+    }
+
+    #aboutme {
+      font-size:16px;
+    
     }
   }
   
